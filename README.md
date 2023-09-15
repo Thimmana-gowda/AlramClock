@@ -17,4 +17,10 @@ Display a list of all the alarms set by user
 # Delete alarm
 For each alarm give a delete button to delete the alarm
 When the user deletes an alarm make sure it “does not alerts the user”
+
+# ScreenShot
+
+![alram-clock0](https://github.com/Thimmana-gowda/AlramClock/assets/145161099/a5c8213c-d762-4ab5-9592-e6655b2d27ee)
+
+When alram Started Ringing
 ![alram-clock](https://github.com/Thimmana-gowda/AlramClock/assets/145161099/7dc11e64-1c0e-4047-a7b6-a5ec94df0700)
