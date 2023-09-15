@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Clock-Alarm" content="Alarm" />
+    <title>Clock-Alarm</title>
+
+    <!--Stylesheet -->
+    <link rel = "stylesheet" href = "style.css" />
+
+</head>
+
+<body>
+    <h1>Alarm Clock</h1>
+    <!--Clock Face div-->
+    <div id = "Clockpt">
+
+    <div id="clock">
+
+        <span id="time"></span>
+
+    </div>
+    
+           
+        <div id = "Clock-facepart"> <!--Setting Alarm considering 12hr format-->
+
+            <label for="hr">Hr</label>
+            <input type="number" id="hr" min="1" max="12"> <!--Hour taking value between 1 to 12 only-->
+
+            <label for="min">Min:</label>
+            <input type="number" id="min" min="0" max="59"><!--Minute taking value between 0 to 59 only-->
+
+            <label for="sec">Sec:</label>
+            <input type="number" id="sec" min="0" max="59"> <!--Secound taking value between 0 to 59 only-->
+
+            <label for="ampm">AM/PM:</label>
+            <select id="ampm">
+                <option value="AM">AM</option>  <!-- select value either am or pm-->
+                <option value="PM">PM</option>
+            </select>
+            
+            <br>
+            <button onclick="setAlarm()">Set Alarm</button>
+
+        </div>
+        <!-- Alarms list -->
+        <div id = "Clock-alarmspart">
+            <h2>Alarms</h2>
+
+            <ul id="alarms">
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+  </body>
+  
+</html>
+</html>

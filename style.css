@@ -1,0 +1,66 @@
+/*body*/
+
+body{  /*applies to whole page*/
+    background-image: linear-gradient(to left, rgba(241, 223, 124, 0.938),rgb(135, 199, 228));
+}
+body h1{ /*applies to h1 heading of body*/
+    text-align: center;
+    padding-top:50px;
+    color: rgba(3, 3, 90, 0.993);
+    font-family: Tahoma;
+}
+
+/*12hr-timeshowing clock*/
+#clock{ 
+    padding-bottom: 50px;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+/*Main clock div contains all the parts*/
+
+#Clockpt { 
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-left:300px;
+    margin-right: 300px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(4, 87, 112) ,rgba(240, 167, 167, 0.616));
+}
+
+/* css for hr min sec part*/
+#Clock-facepart label{
+    font-family:'Arial Narrow Bold';
+}
+
+
+input[type=number], select{
+    border: 1px solid whitesmoke;
+    opacity: 0.7;
+}
+input[type=number]:hover, select:hover{
+    opacity: 1;
+}
+
+/*applies for all button*/
+button{
+    margin-top: 25px;
+    opacity: 0.8;
+    background-color: whitesmoke;
+    color: rgb(77, 13, 102);
+    border: none;
+    
+}
+
+button:hover{
+    opacity: 1;
+    
+}
+
+/*applies to h2 heading of body*/
+body h2{ 
+    text-align: center;
+    padding-top:10px;
+    color: rgba(5, 15, 10, 0.774);
+    font-family: Tahoma;
+}
